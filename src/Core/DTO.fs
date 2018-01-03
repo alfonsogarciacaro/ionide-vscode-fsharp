@@ -1,6 +1,5 @@
-﻿namespace Ionide.VSCode.FSharp
+namespace Ionide.VSCode.FSharp
 
-[<ReflectedDefinition>]
 module DTO =
     type ParseRequest = { FileName : string; IsAsync : bool; Lines : string[]; Version : int }
     type ProjectRequest = { FileName : string}
